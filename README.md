@@ -56,7 +56,7 @@ A simple header component that displays the name of the restaurant.
 
 ### Menu
 
-The menu component that displays a list of pizzas. It includes conditional rendering to show a message when the menu is empty.
+The menu component that displays a list of pizzas. It includes a conditional rendering to show a message when the menu is empty.
 
 ### Pizza
 
@@ -64,7 +64,7 @@ A component that displays the details of a single pizza. It shows the name, ingr
 
 ### Footer
 
-The footer component checks if the restaurant is open based on the current time. If the restaurant is open, it displays the `Order` component.
+The footer component that checks if the restaurant is open based on the current time. If the restaurant is open, it displays the `Order` component.
 
 ### Order
 
@@ -86,7 +86,7 @@ This project is part of the Ultimate React Course 2024: React, Next.js, Redux & 
 
 This project is licensed under the MIT License.
 
-### Usage
+## Usage
 
 To use the application, simply clone the repository, install the dependencies, and start the development server as described above.
 
@@ -94,5 +94,4 @@ Feel free to customize and expand the application as needed. Enjoy building with
 
 ```
 
-Feel free to copy and paste this into your `README.md` file.
 ```
