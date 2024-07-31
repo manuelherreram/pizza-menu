@@ -1,6 +1,6 @@
 # Fast React Pizza Co. Menu
 
-![Fast React Pizza Co.](https://imgur.com/a/kXk3AME)
+![Fast React Pizza Co.](https://i.imgur.com/CUKU4hql.jpg)
 
 This is a simple React application for displaying the menu of Fast React Pizza Co., showcasing the use of components, props, and JSX.
 
