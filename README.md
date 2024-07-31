@@ -1,4 +1,3 @@
-````markdown
 # Fast React Pizza Co. Menu
 
 ![Fast React Pizza Co.](https://i.imgur.com/CUKU4hql.jpg)
@@ -16,7 +15,6 @@ To install the necessary dependencies, run:
 ```bash
 npm install
 ```
-````
 
 ### Running the Application
 
