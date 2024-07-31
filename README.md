@@ -89,7 +89,3 @@ This project is licensed under the MIT License.
 To use the application, simply clone the repository, install the dependencies, and start the development server as described above.
 
 Feel free to customize and expand the application as needed. Enjoy building with React!
-
-```
-
-```
