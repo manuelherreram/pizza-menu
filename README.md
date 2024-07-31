@@ -1,70 +1,96 @@
-# Getting Started with Create React App
+# Fast React Pizza Co. Menu
+
+![Fast React Pizza Co.](https://imgur.com/a/kXk3AME)
+
+This is a simple React application for displaying the menu of Fast React Pizza Co., showcasing the use of components, props, and JSX.
+
+## Project Setup
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+### Installation
 
-In the project directory, you can run:
+To install the necessary dependencies, run:
 
-### `npm start`
+```bash
+npm install
+```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+````
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Running the Application
 
-### `npm test`
+To start the application, run:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```bash
+npm start
+```
 
-### `npm run build`
+This will start the development server and open the application in your default web browser. If it doesn't open automatically, navigate to [http://localhost:3000](http://localhost:3000).
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Building the Application
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+To build the application for production, run:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+npm run build
+```
 
-### `npm run eject`
+This will create an optimized build of the application in the `build` directory.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Project Structure
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- `src/index.js`: Entry point of the application.
+- `src/index.css`: Global styles for the application.
+- `src/components`: Directory for React components.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Components
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### App
 
-## Learn More
+The main component that wraps the entire application. It includes the `Header`, `Menu`, and `Footer` components.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Header
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+A simple header component that displays the name of the restaurant.
 
-### Code Splitting
+### Menu
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+The menu component that displays a list of pizzas. It includes a conditional rendering to show a message when the menu is empty.
 
-### Analyzing the Bundle Size
+### Pizza
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+A component that displays the details of a single pizza. It shows the name, ingredients, price, and an image of the pizza. If the pizza is sold out, it displays a "SOLD OUT" message.
 
-### Making a Progressive Web App
+### Footer
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+The footer component that checks if the restaurant is open based on the current time. If the restaurant is open, it displays the `Order` component.
 
-### Advanced Configuration
+### Order
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+A component that displays the opening hours and an order button when the restaurant is open.
 
-### Deployment
+## Data
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+The pizza menu data is stored in the `pizzaData` array, which includes the name, ingredients, price, photo name, and sold-out status for each pizza.
 
-### `npm run build` fails to minify
+## Styling
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+The application uses a combination of CSS classes and inline styles. Global styles are defined in `src/index.css`.
+
+## Acknowledgements
+
+This project is part of the Ultimate React Course 2024: React, Next.js, Redux & More by Jonas Schmedtmann.
+
+## License
+
+This project is licensed under the MIT License.
+
+```
+
+### Usage
+To use the application, simply clone the repository, install the dependencies, and start the development server as described above.
+
+Feel free to customize and expand the application as needed. Enjoy building with React!
+```
+````
